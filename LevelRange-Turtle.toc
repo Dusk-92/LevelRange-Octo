@@ -1,15 +1,15 @@
 ## Interface: 11200
-## Title: LevelRange [|cff3fcf26Turtle|r]
-## Version: 2.2.0
+## Title: LevelRange [|cffa050ffOcto|r]
+## Version: 2.3.0
 ## Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
-## Notes: Shows the zone level range on the World Map. Now with 100% more turtles!
+## Notes: Shows the zone level range on the World Map. Now with 100% more octopus!
 ## Notes-esES: Muestra el rango de niveles de zona en el mapa mundial. ¡Ahora con un 100 % más de tortugas!
 ## Notes-ptBR: Mostra a faixa de níveis das zonas no Mapa Mundial. Agora com 100% mais tartarugas!
 ## Notes-deDE: Zeigt die Levelbereiche der Zonen auf der Weltkarte. Jetzt mit 100 % mehr Schildkröten!
 ## Notes-zhCN: 在世界地图上显示区域等级范围。现在有 100% 更多的海龟!
 ## Notes-ruRU: Показывает диапазон уровней зон на карте мира. Теперь на 100% больше черепах!
 ## Notes-frFR: Shows the zone level range on the World Map. Now with 100% more turtles!
-## URL: https://github.com/Spartelfant/LevelRange-Turtle
+## URL: https://github.com/Dusk-92/LevelRange-Octo
 ## OptionalDeps: myAddOns
 ## SavedVariables: LevelRangeSettings
 Locale\LevelRange-enUS.lua
