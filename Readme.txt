@@ -9,9 +9,9 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.2.0
+Version:        2.3.0
 
-Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
+Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant, Dusk-92.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
 
 Current Features:
@@ -22,6 +22,11 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.3.0 - Update (Dusk-92)
+ [*] New zones added for patch 1.18.1 (Moonwhisper Coast)
+ [*] New dungeons added for patch 1.18.1 (Windhorn Canyon, Frostmane Hollow)
+ [*] New raid added for patch 1.18.1 (Timbermaw Hold)
+
 2.2.0 - Update (Spartelfant)
  [*] Added Portuguese translation by rafacc87.
  [*] Added German translation by rafacc87.
