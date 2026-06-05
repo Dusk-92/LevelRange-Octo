@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.2.0";
+LEVELRANGE_VERSION  = "2.3.0";
 
 -- Details
 Details = {
@@ -27,7 +27,7 @@ Details = {
     releaseDate     = "Feb 19, 2024",
     author          = "Bull3t, Tenyar97, rado-boy, blehz.",
     email           = "",
-    website         = "https://github.com/Tenyar97/LevelRange-Turtle",
+    website         = "https://github.com/Tenyar97/LevelRange-Octo",
     category        = MYADDONS_CATEGORY_MAP,
     optionsframe    = "LevelRangeOptionsFrame"
 };
@@ -105,7 +105,7 @@ LEVELRANGE_RANGES = {
     [LEVELRANGE_MOONGLADE]              = { 1, 60, lTYPE_CONTESTED},
     [LEVELRANGE_TELDRASSIL]             = { 1, 10, lTYPE_ALLIANCE},
 
-    -- Turtle WoW Zones
+    -- Octo WoW Zones
     [LEVELRANGE_THALASSIANHIGHLANDS]    = { 1, 10, lTYPE_ALLIANCE},
     [LEVELRANGE_BLACKSTONEISLAND]       = { 1, 10, lTYPE_HORDE},
     [LEVELRANGE_GILNEAS]                = {39, 46, lTYPE_CONTESTED},
@@ -118,6 +118,8 @@ LEVELRANGE_RANGES = {
     [LEVELRANGE_GRIMREACHES]            = {33, 38, lTYPE_CONTESTED},
     [LEVELRANGE_NORTHWIND]              = {28, 34, lTYPE_CONTESTED},
     [LEVELRANGE_BALOR]                  = {29, 34, lTYPE_CONTESTED},
+    -- added in patch 1.18.1
+    [LEVELRANGE_MOONWHISPERCOAST]       = {50, 56, lTYPE_CONTESTED},
 };
 
 -- Fishing Level Requirements
@@ -165,7 +167,7 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_MOONGLADE]          = {300},
     [LEVELRANGE_TELDRASSIL]         = {25},
 
-    -- Turtle WoW Zones
+    -- Octo WoW Zones
     -- [LEVELRANGE_GILNEAS]            = {0},
     -- [LEVELRANGE_GILLIJIM]           = {0},
     -- [LEVELRANGE_LAPIDIS]            = {0},
@@ -184,7 +186,6 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_BARRENS]            = {LEVELRANGE_WAILINGCAVERNS, " (17-24)", LEVELRANGE_RAZORFENKRAUL, " (25-30)", LEVELRANGE_RAZORFENDOWNS, " (33-45)"},
     [LEVELRANGE_SILVERPINE]         = {LEVELRANGE_SHADOWFANGKEEP, " (22-30)"},
 
-    [LEVELRANGE_DUNMOROGH]          = {LEVELRANGE_GNOMEREGAN, " (29-38)"},
     [LEVELRANGE_TIRISFAL]           = {LEVELRANGE_SCARLETMONASTERY, " (34-45)"},
     [LEVELRANGE_BADLANDS]           = {LEVELRANGE_ULDAMAN, " (35-47)"},
     [LEVELRANGE_DESOLACE]           = {LEVELRANGE_MARAUDON, " (46-55)"},
@@ -195,7 +196,7 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_WESTERNPLAGUE]      = {LEVELRANGE_SCHOLOMANCE, " (57-60)"},
     [LEVELRANGE_DUROTAR]            = {LEVELRANGE_RAGEFIRECHASM, " (13-18)"},
 
-    -- Turtle WoW Dungeons
+    -- Octo WoW Dungeons
     [LEVELRANGE_ASHENVALE]          = {LEVELRANGE_BLACKFATHOMDEEPS, " (24-32)", LEVELRANGE_CRESCENTGROVE, " (32-38)"},
     [LEVELRANGE_GILNEAS]            = {LEVELRANGE_GILNEASCITY, " (43-49)"},
     [LEVELRANGE_BURNINGSTEPPE]      = {LEVELRANGE_HATEFORGEQUARRY, " (52-60)", LEVELRANGE_BLACKROCKDEPTH, " (52-60)", LEVELRANGE_BLACKROCKSPIRE, " (58-60)"},
@@ -205,6 +206,9 @@ LEVELRANGE_INSTANCES = {
     -- added in patch 1.18
     [LEVELRANGE_BALOR]              = {LEVELRANGE_STORMWROUGHTRUINS, " (35-41)"},
     [LEVELRANGE_WETLANDS]           = {LEVELRANGE_DRAGONMAWRETREAT, " (27-33)"},
+    -- added in patch 1.18.1
+    [LEVELRANGE_1KNEEDLES]          = {LEVELRANGE_WINDHORNCANYONDUNGEON, " (26-30)"},
+    [LEVELRANGE_DUNMOROGH]          = {LEVELRANGE_GNOMEREGAN, " (29-38)", LEVELRANGE_FROSTMANEHOLLOW, " (13-20)"},
 };
 
 -- Raids
@@ -214,9 +218,11 @@ LEVELRANGE_RAIDS = {
     [LEVELRANGE_SILITHUS]           = {LEVELRANGE_RUINSAHNQIRAJ, " (60+)", LEVELRANGE_TEMPLEAHNQIRAJ, " (60+)"},
     [LEVELRANGE_STRANGLETHORN]      = {LEVELRANGE_ZULGURUB, " (60+)"},
 
-    -- Turtle WoW Raids
+    -- Octo WoW Raids
     [LEVELRANGE_HYJAL]              = {LEVELRANGE_EMERALDSANCTUM, " (60+)"},
     [LEVELRANGE_DEADWINDPASS]       = {LEVELRANGE_LOWERKARAZHANHALLS, " (60+)"},
+    -- added in patch 1.18.1
+    [LEVELRANGE_MOONWHISPERCOAST]            = {LEVELRANGE_TIMBERMAWHOLD, " (60+)"},
 };
 
 -- Sub-zones
@@ -228,7 +234,7 @@ LEVELRANGE_SUBZONES = {
     [LEVELRANGE_STORMWIND]          = LEVELRANGE_ELWYNN,
     [LEVELRANGE_DARNASSUS]          = LEVELRANGE_TELDRASSIL,
 
-    -- Turtle WoW Sub-zones
+    -- Octo WoW Sub-zones
     [LEVELRANGE_ALAHTHALAS]         = LEVELRANGE_THALASSIANHIGHLANDS,
 };
 
