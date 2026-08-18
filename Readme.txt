@@ -22,6 +22,9 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.3.1 - Update (Dusk-92)
+[*] Fixed options window (/lr) not working, no longer requires the "myAddOns" addon.
+
 2.3.0 - Update (Dusk-92)
  [*] New zones added for patch 1.18.1 (Moonwhisper Coast)
  [*] New dungeons added for patch 1.18.1 (Windhorn Canyon, Frostmane Hollow)
