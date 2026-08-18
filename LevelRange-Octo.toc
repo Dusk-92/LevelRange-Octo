@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: LevelRange [|cffa050ffOcto|r]
-## Version: 2.3.0
+## Version: 2.3.1
 ## Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
 ## Notes: Shows the zone level range on the World Map. Now with 100% more octopus!
 ## Notes-esES: Muestra el rango de niveles de zona en el mapa mundial. ¡Ahora con un 100 % más de tortugas!
