@@ -9,7 +9,7 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.3.0
+Version:        2.3.1
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant, Dusk-92.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
