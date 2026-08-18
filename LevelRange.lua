@@ -584,6 +584,21 @@ end
 -- Options Frame
 --------------------------------------------------------------------------------------------------
 
+-- Remplacement local pour ne plus dépendre de l'addon externe "myAddOns"
+-- (OptionsFrame_EnableCheckBox / OptionsFrame_DisableCheckBox n'existent que si myAddOns est installé)
+local function LR_EnableCheckBox(button, alpha, checked)
+    button:Enable();
+    button:SetChecked(checked);
+    local label = getglobal(button:GetName() .. "Text");
+    if label then label:SetTextColor(1, 1, 1); end
+end
+
+local function LR_DisableCheckBox(button)
+    button:Disable();
+    local label = getglobal(button:GetName() .. "Text");
+    if label then label:SetTextColor(0.5, 0.5, 0.5); end
+end
+
 -- OnShow of options frame
 function LevelRangeOptionsFrame_OnShow()
     -- Set localised strings
@@ -596,7 +611,7 @@ function LevelRangeOptionsFrame_OnShow()
         local name = base .. "Opt" .. optid;
         local button = getglobal(name);
         local label = getglobal(name .. "Text");
-        OptionsFrame_EnableCheckBox(button, 1, LevelRange.Opts[option.option]);
+        LR_EnableCheckBox(button, 1, LevelRange.Opts[option.option]);
 
         -- Simple stuff
         label:SetText(option.label);
@@ -611,10 +626,10 @@ function LevelRangeOptionsFrame_OnShow()
             local other = getglobal(base .. "Opt" .. child);
             if other then
                 if LevelRange.Opts[option.option] then
-                    OptionsFrame_EnableCheckBox(other, 1,
+                    LR_EnableCheckBox(other, 1,
                         LevelRange.Opts[LEVELRANGE_OPTIONS[child].option]);
                 else
-                    OptionsFrame_DisableCheckBox(other);
+                    LR_DisableCheckBox(other);
                 end
             end
         end
@@ -653,10 +668,10 @@ function LevelRangeOptionsCheckButton_OnClick()
         local other = getglobal(base .. "Opt" .. child);
         if other then
             if LevelRange.Opts[this.option] then
-                OptionsFrame_EnableCheckBox(other, 1,
+                LR_EnableCheckBox(other, 1,
                     LevelRange.Opts[LEVELRANGE_OPTIONS[child].option]);
             else
-                OptionsFrame_DisableCheckBox(other);
+                LR_DisableCheckBox(other);
             end
         end
     end
