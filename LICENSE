@@ -1,0 +1,41 @@
+LevelRange-Octo mixed-origin license notice
+
+Historical LevelRange code
+--------------------------
+
+The following notice is preserved from the LevelRange source:
+
+Copyright (c) 2006 Philip Hughes (Bull3t)
+
+"An unlimited license to use, reproduce and copy this work is granted, on
+the condition that the licensee accepts all responsibility and liability
+for any damage that may arise from the use of this AddOn."
+
+This historical grant applies to the original LevelRange work to the extent
+held by its applicable copyright holder.
+
+Later contributions
+-------------------
+
+LevelRange has been maintained and extended by multiple contributors over time,
+including Turtle WoW-oriented and OctoWoW-oriented work.
+
+This repository does not claim ownership of contributions authored by other
+contributors. Their attribution and provenance are preserved in
+THIRD_PARTY_NOTICES.md and Docs/CODE_PROVENANCE.md.
+
+Dusk-92-authored modifications and documentation may be used, reproduced and
+copied under the same responsibility/liability condition quoted above.
+
+Third-party material
+--------------------
+
+Compatibility references, project names, trademarks, game data, and any
+third-party-derived material remain subject to the rights of their respective
+owners.
+
+World of Warcraft, Warcraft, Blizzard Entertainment, Turtle WoW, OctoWoW and
+associated names, marks, artwork and game assets remain the property of their
+respective rights holders.
+
+See THIRD_PARTY_NOTICES.md and PROJECT_IDENTITY.md for provenance and scope.
