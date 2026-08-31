@@ -126,6 +126,30 @@ Current version:
 
 The complete historical changelog remains available in [`Readme.txt`](Readme.txt).
 
+## 📜 Project identity & licensing
+
+LevelRange-Octo is an independent community-maintained fork with this known
+GitHub ancestry:
+
+- [Tenyar97/LevelRange-Turtle](https://github.com/Tenyar97/LevelRange-Turtle)
+- [Spartelfant/LevelRange-Turtle](https://github.com/Spartelfant/LevelRange-Turtle)
+- this maintained fork
+
+The original LevelRange source by **Philip Hughes (Bull3t)** contains an
+explicit license granting unlimited permission to use, reproduce and copy the
+work, subject to accepting responsibility and liability for damage arising
+from use.
+
+Compatibility with **World of Warcraft**, **Turtle WoW**, **OctoWoW** or
+**FlightMap** does not imply affiliation, endorsement or sponsorship.
+
+For details, see:
+
+- [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+- [PROJECT_IDENTITY.md](PROJECT_IDENTITY.md)
+- [Docs/CODE_PROVENANCE.md](Docs/CODE_PROVENANCE.md)
+- [LICENSES/](LICENSES/)
+
 ## 🙏 Credits
 
 Original **LevelRange** addon by **Bull3t**.
