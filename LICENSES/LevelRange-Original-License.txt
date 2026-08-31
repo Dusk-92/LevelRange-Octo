@@ -1,0 +1,9 @@
+LevelRange historical license notice
+
+Copyright (c) 2006 Philip Hughes (Bull3t)
+
+An unlimited license to use, reproduce and copy this work is granted, on
+the condition that the licensee accepts all responsibility and liability
+for any damage that may arise from the use of this AddOn.
+
+Source: preserved from the header of LevelRange.lua.
